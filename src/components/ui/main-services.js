@@ -18,11 +18,11 @@ export function MainServices() {
               />
               <div className="xl:w-80 w-95 text-center company-blue-text">
                 <h3 className="service_icon_title">Roof Pressure Washing</h3>
-                <p className="">
+                <p>
                   Keep your roof in top shape with professional pressure
                   washing. We safely remove algae, stains, and debris using
                   soft-wash techniques that protect your shingles while
-                  restoring curb appeal and extending your roof’s life.
+                  restoring curb appeal and extending your roof's life.
                 </p>
               </div>
             </div>
@@ -77,7 +77,7 @@ export function MainServices() {
                   House Exterior Pressure Washing
                 </h3>
                 <p>
-                  Refresh your home’s exterior with deep pressure washing. We
+                  Refresh your home's exterior with deep pressure washing. We
                   clean siding, stucco, and brick to remove mold, mildew, and
                   dirt buildup, helping restore the original beauty of your
                   property with lasting, professional results.
