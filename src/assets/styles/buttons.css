@@ -1,0 +1,213 @@
+@font-face {
+  font-family: Arial-black;
+  src: url(../../../public/fonts/arial_black.ttf);
+}
+
+.glass-button {
+  position: relative;
+  padding: 25px 30px;
+  font-size: 15px;
+  font-weight: 650;
+  width: 240px;
+  white-space: nowrap;
+  color: white;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.409);
+  font-family: Arial-black;
+}
+.glass-button::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 2px solid white;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.glass-button:hover {
+  transform: translate(2px, 2px);
+}
+.nav-button-gradient {
+  background: radial-gradient(circle at 60% -100%, #cb000a 20%, #091f57 80%);
+}
+
+.base {
+  font-family: Arial-black;
+  position: relative;
+  box-shadow: 0 0 5px 2px #112e4da9;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.nav-one-border-button {
+  font-size: 15px;
+  background-color: unset;
+  color: white;
+  background: radial-gradient(circle at 60% -100%, #cb000a 20%, #091f57 80%);
+  text-transform: uppercase;
+  border: unset;
+}
+.one-border-button {
+  font-family: Arial-black;
+  position: relative;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 1000;
+  width: 215px;
+  background-color: unset;
+  color: white;
+  background-color: #f4a245;
+  text-transform: uppercase;
+  border: unset;
+  border-radius: 17px;
+  margin: 7px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  white-space: nowrap;
+}
+
+.nav-filled-back-button {
+  font-size: 15px;
+  color: #091f57;
+  background-color: white;
+  border: 0.3px solid white;
+}
+
+.schedule_link {
+  text-decoration: none;
+  color: #091f57;
+}
+
+.nav-filled-back-button:hover,
+.blur-white-button:hover,
+.nav-blur-white-button:hover,
+.one-border-button:hover,
+.base:hover {
+  transform: translate(2px, 2px);
+}
+.nav-one-border-button:hover {
+  background-color: white;
+  transform: translate(2px, 2px);
+}
+
+.services-button {
+  padding: 10px 25px;
+  font-size: 15px;
+  width: 150px;
+  height: 60px;
+  font-weight: bold;
+  font-family: Arial-black;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  color: #171718;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.arrow_circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 11px;
+  min-height: 11px;
+  width: 11px !important;
+  height: 11px !important;
+  border-radius: 50%;
+  border: 2px solid #171718;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  margin-left: 5px;
+}
+.services-button .arrow {
+  width: 5px;
+  height: 5px;
+  border-left: 2px solid #171718;
+  border-bottom: 2px solid #171718;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
+}
+
+.services-button:hover .arrow {
+  transform: rotate(135deg);
+}
+.square-one-border-button:hover {
+  text-decoration: underline;
+}
+.square-one-border-button {
+  padding: 10px 25px;
+  font-size: 15px;
+  width: 220px;
+  height: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: transparent;
+  color: #344266;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.nav-blur-white-button {
+  padding: 10px 40px;
+  font-size: 17px;
+  min-width: 170px;
+  height: 55px;
+  font-family: Arial-black;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  background-color: #6c5e3d57;
+  color: #f4a245;
+  border: 1px solid #f4a245;
+  border-radius: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-items: center;
+  white-space: nowrap;
+  box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.608);
+}
+.nav-blur-white-button a {
+  color: white;
+}
+.blur-white-button {
+  text-transform: uppercase;
+  font-family: Arial-black;
+  padding: 10px 30px;
+  font-size: 15px;
+  min-width: 170px;
+  width: 215px;
+  align-items: center;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  background-color: #112e4d;
+  color: white;
+  border-radius: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blur-white-button:hover {
+  transform: translate(2px, 2px);
+}

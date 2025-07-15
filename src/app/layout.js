@@ -1,5 +1,26 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "@/app/globals.css";
+import "@/assets/styles/index.css";
+import "@/assets/styles/serv.css";
+import "@/assets/styles/about.css";
+import "@/assets/styles/contact.css";
+import "@/assets/styles/equip.css";
+import "@/assets/styles/footer.css";
+import "@/assets/styles/maintanencePlan.css";
+import "@/assets/styles/schedule.css";
+import "@/assets/styles/serv.css";
+import "@/assets/styles/buttons.css";
+import "@/assets/styles/navbar.css";
+import "@/assets/styles/areas.css";
+
+import Navbar from "@/layout/navbar";
+import Footer from "@/layout/footer";
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1.0,
+};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +43,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
