@@ -41,14 +41,14 @@ export function ConclusionSection() {
         </div>
       </div>
       <p className="leading-8 xl:text-center w-screen xl:w-2/3 text-lg px-5 xl:px-0 pb-12">
-        If you're looking to improve your home's appearance, safety, or
-        function, Hritsev BrightFix offers expert handyman and pressure washing
-        services designed to meet real-life needs. We handle everything from
-        driveway cleaning and fence painting to TV mounting and home repairs —
-        all with care and efficiency. Our goal is to simplify home maintenance
-        through clear communication, honest pricing, and dependable results.
-        Book your service today and discover how easy it is to protect and
-        refresh your property with help from a team you can trust.
+        If you&apos;re looking to improve your home&apos;s appearance, safety,
+        or function, Hritsev BrightFix offers expert handyman and pressure
+        washing services designed to meet real-life needs. We handle everything
+        from driveway cleaning and fence painting to TV mounting and home
+        repairs — all with care and efficiency. Our goal is to simplify home
+        maintenance through clear communication, honest pricing, and dependable
+        results. Book your service today and discover how easy it is to protect
+        and refresh your property with help from a team you can trust.
       </p>
       <Button variant="navblur">CONTACT</Button>
     </div>

@@ -26,7 +26,7 @@ export function MainServices() {
                   Keep your roof in top shape with professional pressure
                   washing. We safely remove algae, stains, and debris using
                   soft-wash techniques that protect your shingles while
-                  restoring curb appeal and extending your roof's life.
+                  restoring curb appeal and extending your roof&apos;s life.
                 </p>
               </div>
             </div>
@@ -90,8 +90,8 @@ export function MainServices() {
                   House Exterior Pressure Washing
                 </h3>
                 <p>
-                  Refresh your home's exterior with deep pressure washing. We
-                  clean siding, stucco, and brick to remove mold, mildew, and
+                  Refresh your home&apos;s exterior with deep pressure washing.
+                  We clean siding, stucco, and brick to remove mold, mildew, and
                   dirt buildup, helping restore the original beauty of your
                   property with lasting, professional results.
                 </p>
@@ -116,9 +116,9 @@ export function MainServices() {
                 </h3>
                 <p>
                   We handle all types of home improvements, from small repairs
-                  to custom upgrades. Whether it's drywall patching, hardware
-                  installs, or basic carpentry, our handyman team delivers
-                  reliable and detail-focused service.
+                  to custom upgrades. Whether it&apos;s drywall patching,
+                  hardware installs, or basic carpentry, our handyman team
+                  delivers reliable and detail-focused service.
                 </p>
               </div>
             </div>
@@ -222,10 +222,10 @@ export function MainServices() {
               <div className="xl:w-80 w-95 text-center company-blue-text">
                 <h3 className="service_icon_title">Mounting Service</h3>
                 <p className="">
-                  Whether you're hanging shelves, mirrors, artwork, or curtain
-                  rods — our precise mounting service ensures stability, level
-                  alignment, and a clean finish. We use professional tools and
-                  hardware to securely anchor fixtures to drywall, tile, or
+                  Whether you&apos;re hanging shelves, mirrors, artwork, or
+                  curtain rods — our precise mounting service ensures stability,
+                  level alignment, and a clean finish. We use professional tools
+                  and hardware to securely anchor fixtures to drywall, tile, or
                   concrete surfaces.
                 </p>
               </div>
