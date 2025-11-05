@@ -18,7 +18,7 @@ export function AboutPageHero() {
               everything from routine home repairs to complete exterior
               cleaning. We provide reliable, detail-focused service for
               homeowners and small businesses looking to maintain and improve
-              their properties with confidence. Whether it’s mounting a TV,
+              their properties with confidence. Whether it`s mounting a TV,
               fixing a fence, or pressure washing a weathered patio — we get it
               done right, on time, and with care.
             </p>

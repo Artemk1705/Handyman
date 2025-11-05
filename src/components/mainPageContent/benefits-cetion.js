@@ -23,7 +23,7 @@ export function BenefitsSection() {
             budgets. Our trusted partnerships with top brands like York,
             Mitsubishi, Ameristar, and others ensure high-quality products and
             performance. Contractor Network and an Energy Trust of Oregon Trade
-            Ally, we’re dedicated to maintaining industry excellence and
+            Ally, we`re dedicated to maintaining industry excellence and
             promoting sustainable, cost-effective HVAC solutions.
           </p>
           <Link href="/about">

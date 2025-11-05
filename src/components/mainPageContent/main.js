@@ -14,7 +14,6 @@ const ReviewBlock = dynamic(
   () => import("../ui/rewies").then((mod) => mod.ReviewBlock),
   { ssr: false }
 );
-const FormDis = dynamic(() => import("./form-discount"), { ssr: false });
 
 export function Main() {
   return (

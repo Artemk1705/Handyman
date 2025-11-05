@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function LeftFootbar() {
   return (
     <div className="flex flex-col justify-between xl:w-100 w-screen">
@@ -13,55 +15,47 @@ export function LeftFootbar() {
       <div className="text-center company-blue-text py-4">
         <h3>Connect With Us</h3>
         <div className="flex justify-evenly py-4">
-          <a
-            href="https://www.facebook.com/SMARTHVACLLC"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Follow Smart HVAC on Facebook"
-          >
-            <img
+          <a href="" target="_blank" rel="noopener noreferrer" title="">
+            <Image
               className="footer_icon"
               src="/images/LogoFooter/facebook.webp"
-              alt="Smart HVAC Facebook - HVAC Services in Vancouver WA and Portland OR"
+              alt=""
+              loading="lazy"
+              width={700}
+              height={500}
             />
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/smart-hvac-llc-bb4a0535b/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Follow Smart HVAC on LinkedIn"
-          >
-            <img
+          <a href="" target="_blank" rel="noopener noreferrer" title="">
+            <Image
               className="footer_icon"
               src="/images/LogoFooter/link-logo.webp"
-              alt="Smart HVAC LinkedIn - Professional HVAC Solutions"
+              alt=""
+              loading="lazy"
+              width={700}
+              height={500}
             />
           </a>
 
-          <a
-            href="https://www.youtube.com/@SmartHVAC-m9g"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Subscribe to Smart HVAC on YouTube"
-          >
-            <img
+          <a href="" target="_blank" rel="noopener noreferrer" title="">
+            <Image
               className="footer_icon"
               src="/images/LogoFooter/youtube-logo.webp"
-              alt="Smart HVAC YouTube - HVAC Tutorials and Tips"
+              alt=""
+              loading="lazy"
+              width={700}
+              height={500}
             />
           </a>
 
-          <a
-            href="https://www.tiktok.com/@smarthhvacus"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Follow Smart HVAC on TikTok"
-          >
-            <img
+          <a href="" target="_blank" rel="noopener noreferrer" title="">
+            <Image
               className="footer_icon"
               src="/images/LogoFooter/tik-logo.webp"
-              alt="Smart HVAC TikTok - HVAC Installation and Repair Videos"
+              alt=""
+              loading="lazy"
+              width={700}
+              height={500}
             />
           </a>
         </div>

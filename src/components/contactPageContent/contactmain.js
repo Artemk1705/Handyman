@@ -1,4 +1,5 @@
 import MapGoogle from "./googlemap";
+import Image from "next/image";
 
 export function Contactmain() {
   return (
@@ -35,54 +36,46 @@ export function Contactmain() {
           <div className=" company-blue-bg flex flex-col items-center shadow-xl rounded-2xl p-7 ml-2 mt-2 box-shadow">
             <h2 className="social_title mx-4">Our social networks</h2>
             <div className="flex justify-evenly py-4">
-              <a
-                href="https://www.facebook.com/SMARTHVACLLC"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Follow Smart HVAC on Facebook"
-              >
-                <img
+              <a href="" target="_blank" rel="noopener noreferrer" title="">
+                <Image
                   className="footer_icon"
                   src="/images/LogoFooter/facebook.webp"
-                  alt="Smart HVAC Facebook - HVAC Services in Vancouver WA and Portland OR"
+                  alt=""
+                  loading="lazy"
+                  width={700}
+                  height={500}
                 />
               </a>
-              <a
-                href="https://www.linkedin.com/in/smart-hvac-llc-bb4a0535b/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Follow Smart HVAC on LinkedIn"
-              >
-                <img
+              <a href="" target="_blank" rel="noopener noreferrer" title="">
+                <Image
                   className="footer_icon"
                   src="/images/LogoFooter/link-logo.webp"
-                  alt="Smart HVAC LinkedIn - Professional HVAC Solutions"
+                  alt=""
+                  loading="lazy"
+                  width={700}
+                  height={500}
                 />
               </a>
 
-              <a
-                href="https://www.youtube.com/@SmartHVAC-m9g"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Subscribe to Smart HVAC on YouTube"
-              >
-                <img
+              <a href="" target="_blank" rel="noopener noreferrer" title="">
+                <Image
                   className="footer_icon"
                   src="/images/LogoFooter/youtube-logo.webp"
-                  alt="Smart HVAC YouTube - HVAC Tutorials and Tips"
+                  alt=""
+                  loading="lazy"
+                  width={700}
+                  height={500}
                 />
               </a>
 
-              <a
-                href="https://www.tiktok.com/@smarthhvacus"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Follow Smart HVAC on TikTok"
-              >
-                <img
+              <a href="" target="_blank" rel="noopener noreferrer" title="">
+                <Image
                   className="footer_icon"
                   src="/images/LogoFooter/tik-logo.webp"
-                  alt="Smart HVAC TikTok - HVAC Installation and Repair Videos"
+                  alt=""
+                  loading="lazy"
+                  width={700}
+                  height={500}
                 />
               </a>
             </div>
