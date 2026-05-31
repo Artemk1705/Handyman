@@ -116,10 +116,17 @@ export const ReviewBlock = () => {
   useEffect(() => {
     const interval = setInterval(async () => {
       await animateOut();
-      gsap.set([nameRef.current, starsRef.current], {
-        yPercent: 100,
-        opacity: 0,
-      });
+
+      const nameEl = nameRef.current;
+      const starsEl = starsRef.current;
+
+      if (nameEl && starsEl) {
+        gsap.set([nameEl, starsEl], {
+          yPercent: 100,
+          opacity: 0,
+        });
+      }
+
       setCurrentIndex((prevIndex) =>
         prevIndex + 1 === reviews.length ? 0 : prevIndex + 1
       );

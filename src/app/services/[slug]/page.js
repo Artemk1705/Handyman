@@ -1,44 +1,52 @@
-import { SERVICES_PAGES } from "@/constants/services-pages";
-import { HERO_IMAGES } from "@/constants/blocks-picturtes";
 import { notFound } from "next/navigation";
+import { CITIES_PAGES } from "@/constants/city-pages";
+import { CITY_IMAGES } from "@/constants/service-cards-pictures";
 
-import { HeroSection } from "@/components/servicesPagesContent/hero-section";
 import { SectionList } from "@/components/servicesPagesContent/list-section";
+import { CityHeroSection } from "@/components/areasPageContent/city-hero-section";
 import { ReviewBlock } from "@/components/ui/rewies";
 import { MainServices } from "@/components/ui/main-services";
 import { ConclusionSection } from "@/components/ui/conclusion-section";
-import { previewServices } from "@/data/preview-section/preview";
 import { PreviewSection } from "@/components/ui/preview";
+import { AreasService } from "@/components/ui/areas-block";
+import { previewServices } from "@/data/preview-section/preview";
 
-export default function ServicePage({ params }) {
-  const content = SERVICES_PAGES[params.slug];
-  if (!content) return notFound();
+export async function generateStaticParams() {
+  return Object.keys(CITIES_PAGES)
+    .filter((key) => key !== "areas")
+    .map((city) => ({ city }));
+}
 
-  const backgroundImage =
-    content.backgroundImage ||
-    HERO_IMAGES[params.slug] ||
-    "/images/serv-back.webp";
+export default async function CityPage({ params }) {
+  const { city } = await params;
 
-  const section1 = content.sections?.slice(0, 2);
-  const section2 = content.sections?.slice(2, 4);
-  const section3 = content.sections?.slice(4);
+  const cityContent = CITIES_PAGES[city];
+
+  if (!cityContent) return notFound();
+
+  const { title, sections, conclusion } = cityContent;
+  const backgroundImage = CITY_IMAGES[city] || "/images/serv-back.webp";
+
+  const section1 = sections?.slice(0, 1);
+  const section2 = sections?.slice(1, 2);
+  const section3 = sections?.slice(2);
 
   return (
-    <>
-      <HeroSection title={content.title} backgroundImage={backgroundImage} />
+    <div className="city-page">
+      <CityHeroSection title={title} backgroundImage={backgroundImage} />
+
       <PreviewSection
-        title={previewServices[params.slug]?.title}
-        text={previewServices[params.slug]?.text}
+        title={previewServices["areas"]?.title}
+        text={previewServices["areas"]?.text}
       />
 
       <MainServices />
       <SectionList sections={section1} />
-      <div className="block_reviews py-16 bg-gray-50">
-        <ReviewBlock />
-      </div>
+      <ReviewBlock />
       <SectionList sections={section2} />
+      <AreasService />
       <SectionList sections={section3} />
-      <ConclusionSection />
-    </>
+      <ConclusionSection text={conclusion} />
+    </div>
   );
 }

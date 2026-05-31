@@ -1,5 +1,41 @@
 import { HERO_IMAGES } from "@/constants/blocks-picturtes";
 
+export const MAIN_SERVICE_PAGE = {
+  title: "Complete Remodeling and Renovation Services",
+  backgroundImage: HERO_IMAGES.general,
+
+  sections: [
+    {
+      image: HERO_IMAGES.painting1,
+      title: "Professional Remodeling Services",
+      text: "Hritsev Remodel provides complete remodeling and renovation services designed to improve comfort, functionality, and long-term home value. From painting and drywall to flooring, trim, cabinets, kitchens, and bathrooms, we help homeowners create cleaner, more modern spaces.",
+    },
+    {
+      image: HERO_IMAGES.flooring1,
+      title: "Quality Work for Every Part of Your Home",
+      text: "Every project is completed with careful preparation, clean workmanship, and attention to detail. Whether you need small improvements or a larger renovation, our goal is to deliver durable results that look polished and feel professionally finished.",
+    },
+    {
+      image: HERO_IMAGES.cabpaint1,
+      title: "Interior Upgrades That Make a Difference",
+      text: "We handle flooring, tile, cabinets, drywall, trim, doors, closets, painting, and custom improvement projects. Our services are designed to make your home more organized, comfortable, functional, and visually appealing.",
+    },
+    {
+      image: HERO_IMAGES.kitchen,
+      title: "Kitchen and Bathroom Renovation Solutions",
+      text: "Kitchen and bathroom remodeling can completely transform the way your home looks and functions. We focus on practical layouts, durable materials, clean finishes, and professional installation throughout every stage of the project.",
+    },
+    {
+      image: HERO_IMAGES.remodel1,
+      title: "Why Choose Hritsev Remodel",
+      text: "Hritsev Remodel focuses on reliable service, honest communication, and quality craftsmanship from start to finish. We approach every project with care, professionalism, and attention to the details that make the final result last.",
+    },
+  ],
+
+  conclusion:
+    "Hritsev Remodel provides professional remodeling and renovation services throughout Sarasota and nearby areas, helping homeowners improve comfort, style, functionality, and long-term property value.",
+};
+
 export const PAINTING_CONTENT = {
   title: "Texture & Painting Services",
   backgroundImage: HERO_IMAGES.paintingren,

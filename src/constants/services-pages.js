@@ -1,5 +1,4 @@
 import {
-  GENERAL_REPAIRS_CONTENT,
   PAINTING_CONTENT,
   FLOORING_CONTENT,
   CABINETS_INSTALLATION_CONTENT,
@@ -14,7 +13,6 @@ import {
 } from "@/data/services/property-services";
 
 export const SERVICES_PAGES = {
-  "general-repairs": GENERAL_REPAIRS_CONTENT,
   "texture-painting": PAINTING_CONTENT,
   flooring: FLOORING_CONTENT,
   cabinets: CABINETS_INSTALLATION_CONTENT,

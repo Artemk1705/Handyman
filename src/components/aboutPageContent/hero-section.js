@@ -14,13 +14,14 @@ export function AboutPageHero() {
               About Us
             </h1>
             <p className="leading-8 pb-10">
-              Your go-to handyman and pressure washing team — ready to handle
-              everything from routine home repairs to complete exterior
-              cleaning. We provide reliable, detail-focused service for
-              homeowners and small businesses looking to maintain and improve
-              their properties with confidence. Whether it`s mounting a TV,
-              fixing a fence, or pressure washing a weathered patio — we get it
-              done right, on time, and with care.
+              At Hritsev Remodel, we specialize in transforming homes through
+              professional remodeling, renovation, and improvement services.
+              From interior painting and drywall repair to flooring
+              installation, custom carpentry, kitchen renovations, and bathroom
+              remodels, we help homeowners create spaces that are more
+              functional, comfortable, and visually appealing. Our team is
+              committed to quality craftsmanship, attention to detail, and
+              reliable service on every project.
             </p>
           </div>
           <Link href="/schedule">

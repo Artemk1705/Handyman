@@ -4,13 +4,11 @@ import { CityHeroSection } from "@/components/areasPageContent/city-hero-section
 import { ConclusionSection } from "@/components/ui/conclusion-section";
 import { ReviewBlock } from "@/components/ui/rewies";
 import { AreasService } from "@/components/ui/areas-block";
-import { FormContact } from "@/components/ui/contact-form";
 import { PreviewSection } from "@/components/ui/preview";
 import { MainServices } from "@/components/ui/main-services";
 import { CITY_IMAGES } from "@/constants/service-cards-pictures";
 import { previewServices } from "@/data/preview-section/preview";
-
-import { CITIES_PAGES } from "@/data/cities/cities";
+import { CITIES_PAGES } from "@/constants/city-pages";
 
 export async function generateStaticParams() {
   return Object.keys(CITIES_PAGES)
@@ -44,7 +42,6 @@ export default function CityPage({ params }) {
       <SectionList sections={section2} />
       <AreasService />
       <SectionList sections={section3} />
-      <FormContact />
       <ConclusionSection text={conclusion} />
     </div>
   );

@@ -1,4 +1,4 @@
-import { HERO_IMAGES } from "@/constants/cervice-hero-pictures";
+import { HERO_IMAGES } from "@/constants/blocks-picturtes";
 import { HeroSection } from "@/components/servicesPagesContent/hero-section";
 import { SectionList } from "@/components/servicesPagesContent/list-section";
 import { ReviewBlock } from "@/components/ui/rewies";
