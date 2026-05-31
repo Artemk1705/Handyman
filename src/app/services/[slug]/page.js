@@ -1,11 +1,10 @@
 import { SERVICES_PAGES } from "@/constants/services-pages";
-import { HERO_IMAGES } from "@/constants/cervice-hero-pictures";
+import { HERO_IMAGES } from "@/constants/blocks-picturtes";
 import { notFound } from "next/navigation";
 
 import { HeroSection } from "@/components/servicesPagesContent/hero-section";
 import { SectionList } from "@/components/servicesPagesContent/list-section";
 import { ReviewBlock } from "@/components/ui/rewies";
-import { FormContact } from "@/components/ui/contact-form";
 import { MainServices } from "@/components/ui/main-services";
 import { ConclusionSection } from "@/components/ui/conclusion-section";
 import { previewServices } from "@/data/preview-section/preview";
@@ -15,7 +14,10 @@ export default function ServicePage({ params }) {
   const content = SERVICES_PAGES[params.slug];
   if (!content) return notFound();
 
-  const backgroundImage = HERO_IMAGES[params.slug] || "/images/serv-back.webp";
+  const backgroundImage =
+    content.backgroundImage ||
+    HERO_IMAGES[params.slug] ||
+    "/images/serv-back.webp";
 
   const section1 = content.sections?.slice(0, 2);
   const section2 = content.sections?.slice(2, 4);
@@ -35,8 +37,6 @@ export default function ServicePage({ params }) {
         <ReviewBlock />
       </div>
       <SectionList sections={section2} />
-      <FormContact />
-
       <SectionList sections={section3} />
       <ConclusionSection />
     </>

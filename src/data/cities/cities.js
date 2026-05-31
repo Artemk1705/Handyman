@@ -1,5 +1,6 @@
 export const AREAS_SERVICES_CONTENT = {
   title: "Our Service Zones",
+
   sections: [
     {
       heading: "Service Areas We Cover",
@@ -15,21 +16,25 @@ export const AREAS_SERVICES_CONTENT = {
         "Venice",
       ],
     },
+
     {
-      title: "All-in-One Exterior and Interior Help",
-      text: `From pressure washing to drywall repair and mounting, we provide complete property services. 
-      
-      Whether it's a dirty driveway or a loose cabinet, we handle the job quickly, cleanly, and with attention to detail you can trust.`,
+      title: "All-in-One Remodeling and Renovation Services",
+      text: `From drywall repairs and flooring installation to kitchen remodels and custom carpentry, we provide complete home improvement services designed to improve comfort, functionality, and appearance throughout your property.`,
     },
+
     {
-      title: "Trusted for Quality and Clean Work",
-      text: `We’ve built a reputation for reliable service, honest pricing, and professional results. Every job is completed with care — using the right tools, clean finish work, and flexible scheduling for your convenience.`,
+      title: "Trusted for Quality Craftsmanship and Clean Results",
+      text: `We’ve built a reputation for dependable service, honest communication, and professional workmanship. Every project is completed with attention to detail, clean finishing work, and long-lasting quality homeowners can trust.`,
     },
+
     {
-      title: "Your Go-To Home Improvement Team",
-      text: `Our skilled technicians are ready to handle a wide range of tasks — indoors and out. From painting and tile installs to window cleaning and fence repairs, we deliver smooth, lasting results with pride in every detail.`,
+      title: "Your Local Remodeling and Home Improvement Team",
+      text: `Hritsev Remodel proudly provides remodeling and renovation services throughout Sarasota and surrounding areas. From painting and drywall to bathrooms, kitchens, trim, and flooring, we help homeowners transform their spaces with reliable craftsmanship and modern results.`,
     },
   ],
+
+  conclusion:
+    "Hritsev Remodel proudly serves Sarasota and nearby areas with professional remodeling and renovation services designed to improve comfort, style, and long-term home value.",
 };
 
 export const ANNA_MARIA_CONTENT = {

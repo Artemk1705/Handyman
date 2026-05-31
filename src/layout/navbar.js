@@ -39,7 +39,7 @@ function Navbar() {
           <Image
             className="pb-4 ml-4"
             src="/images/main-power-washing-handyman-hritsev-bright-fix-drive-way-washing-logo.webp"
-            alt="main-power-washing-handyman-hritsev-bright-fix-drive-way-washing-logo"
+            alt="logo"
             width={100}
             height={150}
           />
@@ -47,7 +47,7 @@ function Navbar() {
 
         <RightNav />
       </div>
-      <div className="nav_bar">
+      <div className="nav_bar w-screen">
         <ul className="nav_links_list">
           <li className="">
             <Link href="/">
@@ -59,26 +59,15 @@ function Navbar() {
               <Button variant="bordersq">about Us</Button>
             </Link>
           </li>
-
-          <li className="main_bar">
-            <Link href="/services">
-              <Button variant="bordersq">services</Button>
-            </Link>
-          </li>
-          <li className="main_bar">
-            <Link href="/news">
-              <Button variant="bordersq">news</Button>
-            </Link>
-          </li>
           <li className="main_bar">
             <Link href="/contact">
               <Button variant="bordersq">contact</Button>
             </Link>
           </li>
           <li className="main_bar">
-            <Link href="/schedule">
+            <a href="sms:+15626436373">
               <Button variant="schedule">get schedule</Button>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

@@ -5,9 +5,9 @@ export function RightNav() {
     <div className="flex justify-end font-semibold w-screen pr-15 py-4">
       <a
         className="nav_right_link_container text-lg xl:text-base"
-        href="tel:13609213233"
+        href="tel:15626436373"
       >
-        Call today +1 (360) 607-8204
+        Call today +1 (562) 643-6373
       </a>
       <Link
         className="nav_right_link_container text-xs xl:text-base uppercase"

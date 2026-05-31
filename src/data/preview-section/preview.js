@@ -1,11 +1,11 @@
 export const previewData = {
   mainPreview: {
-    title: "Welcome to Hritsev BrightFix",
-    text: `Your trusted partner for professional handyman services and pressure washing in Sarasota, FL. We offer high-quality home repairs, maintenance, and exterior cleaning solutions tailored to your needs.
+    title: "Welcome to Hritsev Remodel",
+    text: `Your trusted partner for professional remodeling and renovation services in Sarasota, Tampa, Saint Pt., Venice FL. We specialize in high-quality home improvements designed to transform your space with precision, care, and attention to detail.
 
-    Our experienced team takes pride in delivering dependable service, honest work, and visible results — whether it’s fixing, cleaning, or improving your home. We treat every project with care and attention to detail.
+    Our experienced team takes pride in delivering dependable craftsmanship, honest work, and visible results — whether you’re updating a single room or transforming your entire home. We provide expert remodeling for kitchens, bedrooms, bathrooms, and patios, creating beautiful and functional spaces tailored to your needs.
     
-    Contact us today and experience the convenience of reliable, local service you can count on.`,
+    Contact us today and discover the difference of working with a reliable, local remodeling team you can trust.`,
   },
   aboutPreview: {
     title: "We believe that",
@@ -15,78 +15,71 @@ export const previewData = {
 
 export const previewServices = {
   services: {
-    title: "Complete Pressure Washing & Handyman Services",
+    title: "Complete remodeling and renovation services",
     text: `From roof cleaning and painting to furniture assembly and general repairs — we provide trusted, affordable, and high-quality services for homeowners and small businesses in Sarasota and nearby areas. 
     
     Explore our full list of offerings to keep your property in top shape, inside and out.`,
   },
-  "roof-washing": {
-    title: "Professional Roof Pressure Washing",
-    text: `Keep your roof clean, safe, and long-lasting with expert soft-wash roof cleaning. We remove mold, algae, and debris without damaging shingles — helping restore curb appeal and prevent costly repairs.`,
-  },
-  "driveway-washing": {
-    title: "Driveway Pressure Washing Services",
-    text: `Restore the fresh, clean look of your driveway with expert power washing. 
-    
-    We remove oil stains, mold, and grime from concrete and pavers — improving safety, appearance, and curb appeal in one visit.`,
-  },
-  "window-cleaning": {
-    title: "Window Cleaning Services",
-    text: `Enjoy streak-free, sparkling windows with our professional cleaning services. 
-    
-    We clean glass, frames, and sills to brighten your home, enhance natural light, and improve your view inside and out.`,
-  },
-  "house-washing": {
-    title: "Refresh Your Home’s Exterior the Right Way",
-    text: ` Restore the look of your home with deep exterior washing. 
-    We remove dirt, mold, and mildew from siding and brick, bringing back your property’s curb appeal with safe and lasting results.`,
-  },
-  "general-repairs": {
+
+  general: {
     title: "Small Fixes, Big Difference",
     text: `From drywall patches to tile installs, we take care of those everyday repairs and upgrades that make your home more functional and polished. 
     
     Professional handyman help — done right the first time.`,
   },
-  "blinds-installation": {
-    title: "Light Control Made Simple",
-    text: `We install all types of window blinds with precise measurements and secure mounting. 
-    
-    Whether it’s a single window or a full-home upgrade, we’ll make sure everything fits, works, and looks great.`,
+  "doors-installation": {
+    title: "Professional Door Installation for Security and Style",
+    text: `Upgrade your home with expertly installed doors that improve both appearance and functionality. We ensure precise fitting, smooth operation, and durable installation for interior and exterior doors.`,
   },
-  "interior-painting": {
-    title: "Transform Your Home with Expert Interior Painting",
-    text: `A fresh coat of paint transforms your living space, adding brightness, protection, and personality. 
-    
-    We deliver clean lines, smooth finishes, and hassle-free service for any room in your home.`,
+
+  "closet-remodel": {
+    title: "Custom Closet Remodeling for Better Storage and Organization",
+    text: `Maximize your storage space with professionally designed closet remodeling. We create clean, functional layouts that improve organization while adding style and convenience to your home.`,
   },
-  "exterior-painting": {
-    title: "Protect and Refresh with Quality Exterior Painting",
-    text: `Give your home lasting beauty and protection with our expert exterior painting services. 
-    
-    We handle siding, trim, and doors with weather-resistant coatings that enhance curb appeal and defend against the elements.`,
+
+  "kitchen-remodel": {
+    title: "Modern Kitchen Remodeling Designed for Everyday Living",
+    text: `Transform your kitchen into a functional and stylish space tailored to your lifestyle. From cabinets and flooring to finishes and layout updates, we deliver quality craftsmanship from start to finish.`,
   },
-  "furniture-assembly": {
-    title: "Hassle-Free Furniture Assembly by Experts",
-    text: `Skip the frustration and let our skilled team handle your furniture assembly. 
-    
-    We put together beds, shelves, cabinets, and more—securely, efficiently, and exactly as intended for a clean, polished result.`,
+
+  "bathroom-remodel": {
+    title: "Bathroom Remodeling for Comfort, Style, and Functionality",
+    text: `Refresh your bathroom with modern remodeling solutions built for comfort and durability. We handle tile, vanities, fixtures, and finishes with attention to detail and professional care.`,
   },
-  mounting: {
-    title: "Professional Mounting for Secure and Stylish Results",
-    text: `From shelves and TVs to mirrors and décor, we mount everything with precision and care. 
-    
-    Enjoy secure installations, perfect alignment, and a polished look in every room of your home.`,
+
+  "texture-painting": {
+    title: "Interior and Exterior Texture & Painting with Lasting Results",
+    text: `Enhance your property with professional texture and painting services for both interior and exterior spaces. We prepare surfaces carefully and deliver smooth, durable finishes that elevate your home.`,
   },
   flooring: {
     title: "Expert Flooring Installation for Lasting Style and Durability",
     text: `Transform your space with professionally installed flooring. Whether it's laminate, vinyl, or hardwood, we ensure smooth, level results and clean edges that elevate any interior.`,
   },
-  "wallpaper-installation": {
-    title: "Custom Wallpaper Installation for Elegant Walls",
-    text: `Make any room stand out with professionally installed wallpaper. 
-    
-    Whether it’s a bold accent wall or a full-room transformation, we deliver smooth, bubble-free results with perfect pattern alignment and lasting beauty.`,
+  tiling: {
+    title: "Professional Tile Installation for a Clean and Elegant Finish",
+    text: `Enhance your space with expertly installed tile. From floors to walls and backsplashes, we deliver precise alignment, smooth surfaces, and a polished look built to last.`,
   },
+
+  carpentry: {
+    title: "Custom Carpentry That Adds Character and Functionality",
+    text: `Bring detail and structure to your home with quality carpentry work. From framing to decorative elements, we create solid, refined features that elevate your interior.`,
+  },
+
+  "drywall-work": {
+    title: "Seamless Drywall Installation and Repair for Flawless Walls",
+    text: `Achieve perfectly smooth walls and ceilings with professional drywall services. We ensure clean installation, precise finishing, and surfaces ready for paint or texture.`,
+  },
+
+  cabinets: {
+    title: "Precise Cabinet Installation for a Perfect Fit and Finish",
+    text: `Upgrade your kitchen, bathroom, or storage space with expertly installed cabinets. We ensure accurate alignment, secure mounting, and a clean, built-in appearance.`,
+  },
+
+  "trim-moulding": {
+    title: "Detailed Trim Work That Completes Your Interior Design",
+    text: `Add the finishing touch to your space with professional trim installation. From baseboards to crown molding, we deliver sharp lines and refined detail that ties the room together.`,
+  },
+
   areas: {
     title: "Explore Our Full Coverage Area",
     text: `From coastal neighborhoods to busy urban streets, Hritsev BrightFix proudly serves homeowners and small businesses across Florida’s Gulf Coast. 

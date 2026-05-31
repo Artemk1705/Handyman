@@ -6,9 +6,12 @@ export function LeftFootbar() {
       <div className="text-center company-blue-text leading-7 py-5">
         <h3 className="py-4">Company Information</h3>
         <div>
-          <strong>Hritsev Bright Fix</strong>
+          <strong>Hritsev Remodel</strong>
           <br /> Sarasota, FL 34243
-          <br /> Phone: <a href="tel:+13609535762">(360) 607-8204</a>
+          <br /> Phone:{" "}
+          <a className="font-bold underline" href="tel:+15626436373">
+            (562) 643-6373
+          </a>
         </div>
       </div>
 
@@ -26,32 +29,15 @@ export function LeftFootbar() {
             />
           </a>
 
-          <a href="" target="_blank" rel="noopener noreferrer" title="">
+          <a
+            href="https://www.linkedin.com/company/hritsev-bright-fix/?viewAsMember=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            title=""
+          >
             <Image
               className="footer_icon"
               src="/images/LogoFooter/link-logo.webp"
-              alt=""
-              loading="lazy"
-              width={700}
-              height={500}
-            />
-          </a>
-
-          <a href="" target="_blank" rel="noopener noreferrer" title="">
-            <Image
-              className="footer_icon"
-              src="/images/LogoFooter/youtube-logo.webp"
-              alt=""
-              loading="lazy"
-              width={700}
-              height={500}
-            />
-          </a>
-
-          <a href="" target="_blank" rel="noopener noreferrer" title="">
-            <Image
-              className="footer_icon"
-              src="/images/LogoFooter/tik-logo.webp"
               alt=""
               loading="lazy"
               width={700}

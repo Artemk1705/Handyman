@@ -30,7 +30,7 @@ const Burger = () => {
         <Image
           className="absolute top-0 left-1/2 -translate-x-1/2"
           src="/images/main-power-washing-handyman-hritsev-bright-fix-drive-way-washing-logo.webp"
-          width={75}
+          width={57}
           height={80}
           alt="Logo"
         />
@@ -53,7 +53,7 @@ const Burger = () => {
               <Image
                 className="absolute top-1 left-1/2 -translate-x-1/2"
                 src="/images/main-power-washing-handyman-hritsev-bright-fix-drive-way-washing-logo.webp"
-                width={75}
+                width={57}
                 height={100}
                 alt="Logo"
               />
@@ -81,32 +81,11 @@ const Burger = () => {
             About Us
           </Link>
           <Link
-            href="/services"
-            onClick={closeBurger}
-            className="text-xl font-semibold company-blue-text hover:underline"
-          >
-            Services
-          </Link>
-          <Link
-            href="/news"
-            onClick={closeBurger}
-            className="text-xl font-semibold company-blue-text hover:underline"
-          >
-            News
-          </Link>
-          <Link
             href="/contact"
             onClick={closeBurger}
             className="text-xl font-semibold company-blue-text hover:underline"
           >
             Contact
-          </Link>
-          <Link
-            href="/schedule"
-            onClick={closeBurger}
-            className="text-xl font-semibold company-blue-text hover:underline"
-          >
-            Get schedule
           </Link>
         </div>
       </div>

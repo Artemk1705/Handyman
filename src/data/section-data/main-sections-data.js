@@ -1,20 +1,22 @@
 export const mainSectionData = {
   firstSection: {
-    title: "Professional Handyman & Pressure Washing Services You Can Count On",
-    text: `At Hritsev BrightFix, we take care of the tasks that keep your home or business running smoothly — from small repairs to full exterior cleaning. Our services are built on reliability, attention to detail, and a commitment to doing the job right the first time.
+    title: "Professional Remodeling & Renovation Services You Can Count On",
+    text: `At Hritsev Remodel, we focus on transforming homes and spaces through quality remodeling and renovation work. From updating individual rooms to full interior improvements, our services are built on reliability, attention to detail, and a commitment to doing the job right the first time.
 
-    Whether you need pressure washing for your driveway or patio, fence and deck maintenance, interior touch-ups, or help assembling furniture, we’re here to simplify your to-do list with skill and care.
-    
-    With 5+ years of hands-on experience, we pride ourselves on providing clean, dependable, and affordable solutions — all tailored to your space and schedule.`,
-    image: "/images/power-washing-house-exterior-sarasota.webp",
+    Whether you’re planning a kitchen remodel, bathroom renovation, bedroom upgrade, or patio transformation, we’re here to turn your vision into a beautiful, functional reality. With 5+ years of hands-on experience, we take pride in delivering clean, dependable, and affordable solutions — all tailored to your space, style, and schedule.`,
+    image: "/images/tampa-sarasota-remodel-renovation-trim-drywall.webp",
     button: "learn more",
     tag: "adwdawd",
     href: "/",
   },
   secondSection: {
-    title: "Why Homeowners & Businesses Trust Hritsev BrightFix",
-    text: `Hritsev BrightFix is the go-to choice for homeowners and property managers who value professionalism, flexibility, and results. With over 5 years of experience, we provide fully insured handyman and pressure washing services with a reputation for reliability and attention to detail. From restoring patios and driveways to assembling furniture and painting interiors, we deliver efficient, high-quality work tailored to your space and schedule. Our team uses professional-grade equipment and eco-friendly methods to ensure spotless results without damage. We proudly serve both residential and commercial clients, offering fast response times, transparent pricing, and a satisfaction guarantee on every project.`,
-    image: "/images/affordable-handyman-services-sarasota-fl.webp",
+    title: "Why Homeowners & Businesses Trust Hritsev Remodel",
+    text: `Hritsev Remodel is the go-to choice for homeowners and property managers who value professionalism, flexibility, and quality results. With over 5 years of experience, we specialize in fully insured remodeling and renovation services with a strong reputation for reliability and attention to detail.
+
+    From kitchen and bathroom remodels to bedroom upgrades and patio renovations, we deliver efficient, high-quality work tailored to your space, style, and schedule. Our team uses professional techniques, quality materials, and proven methods to ensure durable, beautiful results without compromise.
+    
+    We proudly serve both residential and commercial clients, offering clear communication, transparent pricing, and a commitment to complete satisfaction on every project.`,
+    image: "/images/content-blocks/painting-trim-flooring-baseboards.webp",
     button: "learn more",
     tag: "adwdawd",
     href: "/",

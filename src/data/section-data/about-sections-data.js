@@ -6,7 +6,8 @@ export const aboutSectionData = {
     We believe in clear pricing, honest communication, and dependable service from start to finish. Our experienced team handles every project with care, offering reliable residential maintenance that adds comfort and value to your home.
     
     With personalized solutions and a friendly, local approach, we make home improvement simple and stress-free.`,
-    image: "/images/about-page-sections/about-section-main.webp",
+    image:
+      "/images/content-blocks/remodel-renovation-flooring-laminate-painting-ceiling-baseboards-trim.webp",
     tag: "adwdawd",
     button: "learn more",
     href: "/",
@@ -20,7 +21,8 @@ export const aboutSectionData = {
     Whether you're a homeowner or managing a rental property, we’re here to help maintain, protect, and improve your space.
     
     `,
-    image: "/images/about-page-sections/about-section-first.webp",
+    image:
+      "/images/content-blocks/cabinets-painting-cabinets-restauration-sarasota-tampa.webp",
     tag: "adwdawd",
     button: "learn more",
     href: "/",
@@ -32,7 +34,8 @@ export const aboutSectionData = {
     With over 5 years of experience, we handle projects of all sizes with professionalism and care. From homeowners to small business owners, our clients know they can count on us for fast service, reliable craftsmanship, and a smooth experience from start to finish.
     
     `,
-    image: "/images/about-page-sections/about-section-second.webp",
+    image:
+      "/images/content-blocks/siding-painting-trim-hardboards-renovation-remodel.webp",
     tag: "adwdawd",
     button: "learn more",
     href: "/",

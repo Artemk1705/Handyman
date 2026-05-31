@@ -33,10 +33,10 @@ export function InfoSectionList({
         }`}
       >
         <Image
-          className="xl:w-2/5 xl:rounded-lg w-screen object-cover rounded-0 shadow-md"
+          className="xl:w-2/6 w-95 xl:mt-0 mt-7 flex flex-col justify-center object-cover"
           src={image}
           alt={tag}
-          width={700}
+          width={400}
           height={500}
           loading="lazy"
         />
@@ -45,9 +45,6 @@ export function InfoSectionList({
           <div className="space-y-3 pb-10">
             <div className="text-lg">{text}</div>
           </div>
-          <Link href={href} passHref>
-            <Button variant={buttonType}>{button}</Button>
-          </Link>
         </div>
       </div>
     </div>

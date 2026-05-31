@@ -44,7 +44,6 @@ export function Main() {
           href={mainSectionData.secondSection.href}
         />
         <ReviewBlock />
-        <FormContact />
       </div>
     </div>
   );

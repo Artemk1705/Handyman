@@ -5,13 +5,12 @@ export function SectionList({ sections }) {
   return (
     <div className="w-screen">
       {sections.map((section, index) => {
+        console.log("SECTION IMAGE:", section.image);
         const isEven = index % 2 === 0;
 
         const styles = isEven
           ? "company-yellow-bg text-white"
           : "bg-white company-blue-text";
-
-        const buttonVariant = isEven ? "blur" : "gradient";
 
         return (
           <div
@@ -21,9 +20,9 @@ export function SectionList({ sections }) {
             }`}
           >
             <Image
-              className="xl:w-2/5 w-95 flex flex-col justify-center"
-              src="/images/navbar-logo.png"
-              alt="Service"
+              className="xl:w-2/6 w-95 flex flex-col justify-center object-cover"
+              src={section.image || "/images/content-blocks/default.webp"}
+              alt={section.title || "Service"}
               loading="lazy"
               width={700}
               height={500}
@@ -32,8 +31,8 @@ export function SectionList({ sections }) {
               {section.title && (
                 <h2 className="text-3xl font-bold mb-10">{section.title}</h2>
               )}
+
               {section.text && <p className="text-lg pb-10">{section.text}</p>}
-              <Button variant={buttonVariant}>Learn More</Button>
             </div>
           </div>
         );

@@ -9,8 +9,8 @@ import Image from "next/image";
 function Footer() {
   return (
     <div className=" w-screen">
-      <div className="text-center py-8 text-white uppercase font-medium text-xl company-blue-bg">
-        Your Trusted Partner in Air Conditioning Services (360) 607-8204
+      <div className="text-center py-8 px-[5px]  text-white uppercase font-medium text-xl company-blue-bg">
+        Your Trusted Partner in Remodeling & Renovation Services (562) 643-6373
       </div>
       <div className="flex xl:flex-row flex-col justify-evenly company-yellow-bg w-screen py-10">
         <LeftFootbar />
@@ -26,7 +26,7 @@ function Footer() {
         <RightFootbar />
       </div>
       <div className="w-screen flex-col xl:flex-row justify-evenly items-center text-center px-0 py-5 xl:px-0 xl:py-8.5 text-white company-blue-bg uppercase font-medium text-l">
-        <div className="">© 2025 Hritsev Bright Fix All RIGHT RESERVED.</div>
+        <div className="">© 2026 Hritsev Bright Fix All RIGHT RESERVED.</div>
         <div className="flex flex-col xl:flex-row justify-evenly">
           <div className="flex justify-evenly xl:w-80 w-screen underline text-sm py-3 xl:py-0">
             <Link href="/sitemap">Sitemap</Link>

@@ -4,7 +4,7 @@ export function ConclusionSection() {
   return (
     <div className="company-blue-bg flex flex-col py-25 items-center text-white">
       <h2 className="text-white text-3xl px-5 xl:px-0">
-        Call Hritsev BrightFix for Trusted, Professional Service
+        Call Hritsev Remodel for Trusted, Professional Service
       </h2>
       <div className="grid grid-cols-2 gap-5 xl:flex xl:justify-evenly bg-white w-screen xl:w-200 py-6 my-15 xl:rounded-full">
         <div className="flex flex-col items-center text-center">
@@ -41,16 +41,20 @@ export function ConclusionSection() {
         </div>
       </div>
       <p className="leading-8 xl:text-center w-screen xl:w-2/3 text-lg px-5 xl:px-0 pb-12">
-        If you&apos;re looking to improve your home&apos;s appearance, safety,
-        or function, Hritsev BrightFix offers expert handyman and pressure
-        washing services designed to meet real-life needs. We handle everything
-        from driveway cleaning and fence painting to TV mounting and home
-        repairs — all with care and efficiency. Our goal is to simplify home
-        maintenance through clear communication, honest pricing, and dependable
-        results. Book your service today and discover how easy it is to protect
-        and refresh your property with help from a team you can trust.
+        If you&apos;re looking to improve your home&apos;s appearance,
+        functionality, and overall value, Hritsev Remodel provides professional
+        remodeling and renovation services designed for modern living. From
+        kitchen and bathroom remodels to flooring, drywall, painting, carpentry,
+        cabinets, doors, and custom home improvements, we handle every project
+        with attention to detail and quality craftsmanship. Our goal is to make
+        the remodeling process simple and stress-free through clear
+        communication, honest pricing, and dependable results. Contact Hritsev
+        Remodel today and discover how professional renovation services can
+        completely transform your home.
       </p>
-      <Button variant="navblur">CONTACT</Button>
+      <a href="sms:+15626436373">
+        <Button variant="navblur">GET SCHEDULE</Button>
+      </a>
     </div>
   );
 }

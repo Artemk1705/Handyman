@@ -13,7 +13,7 @@ export function Contactmain() {
           </div>
           <div className="flex flex-col py-5 leading-8">
             <h4>Phone</h4>
-            <p>360-607-8204</p>
+            <p>562-643-6373</p>
           </div>
           <div className="flex flex-col py-5 leading-8">
             <h4>Working Hours</h4>
@@ -31,7 +31,7 @@ export function Contactmain() {
             </p>
           </div>
           <div className="py-5">
-            Thank you for your interest in our Hritsev Bright Fix company
+            Thank you for your interest in our Hritsev Remodel company
           </div>
           <div className=" company-blue-bg flex flex-col items-center shadow-xl rounded-2xl p-7 ml-2 mt-2 box-shadow">
             <h2 className="social_title mx-4">Our social networks</h2>

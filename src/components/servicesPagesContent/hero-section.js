@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 export function HeroSection({ title, backgroundImage }) {
   return (
@@ -11,9 +10,10 @@ export function HeroSection({ title, backgroundImage }) {
         <h1 className="font-header company-yellow text-6xl sm:text-3xl md:text-7xl lg:text-8xl xl:text-8xl uppercase text-shadow-lg mb-10">
           {title}
         </h1>
-        <Link href="/schedule">
+
+        <a href="sms:+15626436373">
           <Button variant="navblur">GET SCHEDULE</Button>
-        </Link>
+        </a>
       </div>
     </div>
   );
