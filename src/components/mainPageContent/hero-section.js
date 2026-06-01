@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function MainPageHero() {
   return (
-    <div className="relative w-screen h-[90vh] md:h-[105vh] flex items-center justify-center overflow-hidden">
+    <div className="relative w-screen h-[95vh] md:h-[105vh] flex items-center justify-center overflow-hidden">
       {/* 🎥 Видео на фоне */}
       <video
         autoPlay
