@@ -21,7 +21,7 @@ export function Button({ className = "", variant = "default", ...props }) {
     products:
       "nav-button-gradient w-[180px] xl:w-[195px] text-white xl:px-[45px] py-[8px] xl:py-[10px] rounded-[25px] base ",
     scroll:
-      "fixed bottom-5 right-44 z-[99999] company-yellow-bg company-blue-text font-black w-20 h-14 rounded-full flex items-center justify-center shadow-lg active:scale-95 transition-all duration-300 cursor-pointer",
+      "fixed bottom-5 md:right-5 right-44 z-[99999] company-yellow-bg company-blue-text font-black w-20 h-14 rounded-full flex items-center justify-center shadow-lg active:scale-95 transition-all duration-300 cursor-pointer",
   };
 
   return <button {...props} className={cn(variants[variant], className)} />;
