@@ -28,7 +28,7 @@ export function Main() {
               ?.scrollIntoView({ behavior: "smooth" })
           }
         >
-          Services
+          SERVICES
         </Button>
         <PreviewSection
           title={previewData.mainPreview.title}
