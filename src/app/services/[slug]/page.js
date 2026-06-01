@@ -1,52 +1,55 @@
+import { SERVICES_PAGES } from "@/constants/services-pages";
+import { HERO_IMAGES } from "@/constants/blocks-picturtes";
 import { notFound } from "next/navigation";
-import { CITIES_PAGES } from "@/constants/city-pages";
-import { CITY_IMAGES } from "@/constants/service-cards-pictures";
 
+import { HeroSection } from "@/components/servicesPagesContent/hero-section";
 import { SectionList } from "@/components/servicesPagesContent/list-section";
-import { CityHeroSection } from "@/components/areasPageContent/city-hero-section";
 import { ReviewBlock } from "@/components/ui/rewies";
 import { MainServices } from "@/components/ui/main-services";
 import { ConclusionSection } from "@/components/ui/conclusion-section";
 import { PreviewSection } from "@/components/ui/preview";
-import { AreasService } from "@/components/ui/areas-block";
 import { previewServices } from "@/data/preview-section/preview";
 
 export async function generateStaticParams() {
-  return Object.keys(CITIES_PAGES)
-    .filter((key) => key !== "areas")
-    .map((city) => ({ city }));
+  return Object.keys(SERVICES_PAGES).map((slug) => ({
+    slug,
+  }));
 }
 
-export default async function CityPage({ params }) {
-  const { city } = await params;
+export default async function ServicePage({ params }) {
+  const { slug } = await params;
 
-  const cityContent = CITIES_PAGES[city];
+  const content = SERVICES_PAGES[slug];
 
-  if (!cityContent) return notFound();
+  if (!content) return notFound();
 
-  const { title, sections, conclusion } = cityContent;
-  const backgroundImage = CITY_IMAGES[city] || "/images/serv-back.webp";
+  const backgroundImage =
+    content.backgroundImage || HERO_IMAGES[slug] || "/images/serv-back.webp";
 
-  const section1 = sections?.slice(0, 1);
-  const section2 = sections?.slice(1, 2);
-  const section3 = sections?.slice(2);
+  const section1 = content.sections?.slice(0, 2);
+  const section2 = content.sections?.slice(2, 4);
+  const section3 = content.sections?.slice(4);
 
   return (
-    <div className="city-page">
-      <CityHeroSection title={title} backgroundImage={backgroundImage} />
+    <>
+      <HeroSection title={content.title} backgroundImage={backgroundImage} />
 
       <PreviewSection
-        title={previewServices["areas"]?.title}
-        text={previewServices["areas"]?.text}
+        title={previewServices[slug]?.title}
+        text={previewServices[slug]?.text}
       />
 
       <MainServices />
       <SectionList sections={section1} />
-      <ReviewBlock />
+
+      <div className="block_reviews py-16 bg-gray-50">
+        <ReviewBlock />
+      </div>
+
       <SectionList sections={section2} />
-      <AreasService />
       <SectionList sections={section3} />
-      <ConclusionSection text={conclusion} />
-    </div>
+
+      <ConclusionSection text={content.conclusion} />
+    </>
   );
 }

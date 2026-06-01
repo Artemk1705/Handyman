@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function MainPageHero() {
   return (
-    <div className="relative w-screen h-[85vh] md:h-[105vh] flex items-center justify-center overflow-hidden">
+    <div className="relative w-screen h-[90vh] md:h-[105vh] flex items-center justify-center overflow-hidden">
       {/* 🎥 Видео на фоне */}
       <video
         autoPlay
@@ -24,7 +24,7 @@ export function MainPageHero() {
 
       {/* 📄 Текст и кнопка */}
       <div className="title_main_text_container">
-        <div className="absolute top-[17px] left-[25px] text-white flex flex-col items-start text-left 2xl:top-[27%] xl:top-[115px] ml-0 cursor-default z-20">
+        <div className="absolute top-[25px] left-[25px] text-white flex flex-col items-start text-left 2xl:top-[27%] xl:top-[115px] ml-0 cursor-default z-20">
           <div>
             <h1 className="font-header company-yellow text-6xl sm:text-3xl md:text-7xl lg:text-8xl xl:text-8xl uppercase text-shadow-lg">
               your local, trusted
