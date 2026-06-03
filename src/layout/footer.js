@@ -30,7 +30,7 @@ function Footer() {
         <div className="flex flex-col xl:flex-row justify-evenly">
           <div className="flex justify-evenly xl:w-80 w-screen underline text-sm py-3 xl:py-0">
             <Link href="/sitemap">Sitemap</Link>
-            <Link href="">Privacy</Link>
+            <Link href="/policy">Privacy</Link>
             <Link href="">Terms</Link>
           </div>
         </div>
