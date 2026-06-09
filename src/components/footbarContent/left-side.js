@@ -52,6 +52,21 @@ export function LeftFootbar() {
               height={500}
             />
           </a>
+          <a
+            href="https://www.instagram.com/hritsevremodel?fbclid=IwY2xjawSVfBVleHRuA2FlbQIxMABicmlkETF5ZldFQ0d5eGtCa2xCZmppc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeyS0eMMX_yWHEnrB4wvvhL1zlkMoyZTxMyErqyEUoE3s-xjP4zFBfP2-zvBs_aem_7DvkWO26BxEXn2IEXnrIhA"
+            target="_blank"
+            rel="noopener noreferrer"
+            title=""
+          >
+            <Image
+              className="footer_icon"
+              src="/images/LogoFooter/insta-logo.webp"
+              alt=""
+              loading="lazy"
+              width={700}
+              height={500}
+            />
+          </a>
         </div>
       </div>
     </div>

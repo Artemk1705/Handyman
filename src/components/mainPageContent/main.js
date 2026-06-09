@@ -9,6 +9,7 @@ import { MainServices } from "@/components/ui/main-services";
 import { MainPageHero } from "./hero-section";
 import { PreviewSection } from "@/components/ui/preview";
 import { Button } from "../ui/button";
+import { WorksSlider } from "../ui/swiper-pictures";
 
 const ReviewBlock = dynamic(
   () => import("../ui/rewies").then((mod) => mod.ReviewBlock),
@@ -34,8 +35,12 @@ export function Main() {
           title={previewData.mainPreview.title}
           text={previewData.mainPreview.text}
         />
+        <div id="services">
+          <MainServices />
+        </div>
+        <WorksSlider />
         <InfoSectionList
-          sectionIndex={0}
+          sectionIndex={1}
           title={mainSectionData.firstSection.title}
           text={mainSectionData.firstSection.text}
           image={mainSectionData.firstSection.image}
@@ -43,11 +48,9 @@ export function Main() {
           button={mainSectionData.firstSection.button}
           href={mainSectionData.firstSection.href}
         />
-        <div id="services">
-          <MainServices />
-        </div>
+        <ReviewBlock />
         <InfoSectionList
-          sectionIndex={1}
+          sectionIndex={2}
           title={mainSectionData.secondSection.title}
           text={mainSectionData.secondSection.text}
           image={mainSectionData.secondSection.image}
@@ -55,7 +58,6 @@ export function Main() {
           tag={mainSectionData.secondSection.tag}
           href={mainSectionData.secondSection.href}
         />
-        <ReviewBlock />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { ContactButton } from "../ui/contact-button";
 
 export function HeroSection({ title, backgroundImage }) {
   return (
@@ -11,16 +11,7 @@ export function HeroSection({ title, backgroundImage }) {
           {title}
         </h1>
 
-        <a
-          href="sms:+15626436373"
-          onClick={() => {
-            window.gtag?.("event", "conversion", {
-              send_to: "AW-18199502292/kiCoCP60vrscENS7meZD",
-            });
-          }}
-        >
-          <Button variant="navblur">GET SCHEDULE</Button>
-        </a>
+        <ContactButton type="sms" variant="navblur" text="GET ESTIMATE" />
       </div>
     </div>
   );

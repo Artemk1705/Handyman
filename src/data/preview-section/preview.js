@@ -1,15 +1,14 @@
 export const previewData = {
   mainPreview: {
     title: "Welcome to Hritsev Remodel",
-    text: `Your trusted partner for professional remodeling and renovation services in Sarasota, Tampa, Saint Pt., Venice FL. We specialize in high-quality home improvements designed to transform your space with precision, care, and attention to detail.
+    text: `Professional remodeling and renovation services in Sarasota and surrounding areas. We specialize in kitchen remodels, bathroom renovations, flooring, drywall, painting, trim work, doors, and complete interior improvements.
 
-    Our experienced team takes pride in delivering dependable craftsmanship, honest work, and visible results — whether you’re updating a single room or transforming your entire home. We provide expert remodeling for kitchens, bedrooms, bathrooms, and patios, creating beautiful and functional spaces tailored to your needs.
-    
-    Contact us today and discover the difference of working with a reliable, local remodeling team you can trust.`,
+Our goal is simple: provide quality craftsmanship, reliable service, and beautiful results that improve the comfort, appearance, and value of your home.`,
   },
+
   aboutPreview: {
     title: "We believe that",
-    text: "comfort, efficiency, and thoughtful service go hand in hand — and we’re fully committed to improving your home experience, one project at a time.",
+    text: "quality workmanship, honest communication, and attention to detail are the foundation of every successful remodeling project.",
   },
 };
 

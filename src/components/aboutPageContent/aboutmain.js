@@ -9,6 +9,7 @@ import { aboutSectionData } from "@/data/section-data/about-sections-data";
 import { StatsSection } from "../ui/stats-section";
 import { MainServices } from "@/components/ui/main-services";
 import { ConclusionSection } from "../ui/conclusion-section";
+import { WorksSlider } from "../ui/swiper-pictures";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -76,6 +77,7 @@ export function Aboutpage() {
         title={previewData.aboutPreview.title}
         text={previewData.aboutPreview.text}
       />
+      <MainServices />
       <InfoSectionList
         sectionIndex={0}
         title={aboutSectionData.firstSection.title}
@@ -85,6 +87,7 @@ export function Aboutpage() {
         button={aboutSectionData.firstSection.button}
         href={aboutSectionData.firstSection.href}
       />
+      <WorksSlider />
       <StatsSection />
       <InfoSectionList
         sectionIndex={1}
@@ -95,7 +98,7 @@ export function Aboutpage() {
         button={aboutSectionData.secondSection.button}
         href={aboutSectionData.secondSection.href}
       />
-      <MainServices />
+
       <InfoSectionList
         sectionIndex={2}
         title={aboutSectionData.thirdSection.title}

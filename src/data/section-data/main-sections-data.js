@@ -1,21 +1,19 @@
 export const mainSectionData = {
   firstSection: {
-    title: "Professional Remodeling & Renovation Services You Can Count On",
-    text: `At Hritsev Remodel, we focus on transforming homes and spaces through quality remodeling and renovation work. From updating individual rooms to full interior improvements, our services are built on reliability, attention to detail, and a commitment to doing the job right the first time.
+    title: "Professional Remodeling Services in Sarasota & Surrounding Areas",
+    text: `Hritsev Remodel provides reliable remodeling and renovation services for homeowners throughout Sarasota and nearby communities. We specialize in kitchens, bathrooms, flooring, drywall, painting, trim work, doors, and complete interior upgrades.
 
-    Whether you’re planning a kitchen remodel, bathroom renovation, bedroom upgrade, or patio transformation, we’re here to turn your vision into a beautiful, functional reality. With 5+ years of hands-on experience, we take pride in delivering clean, dependable, and affordable solutions — all tailored to your space, style, and schedule.`,
+    Whether you're updating a single room or renovating multiple areas of your home, we focus on quality workmanship, clear communication, and attention to detail. Our goal is simple: deliver clean, professional results that improve the comfort, appearance, and value of your home.`,
     image: "/images/tampa-sarasota-remodel-renovation-trim-drywall.webp",
     button: "learn more",
     tag: "adwdawd",
     href: "/",
   },
   secondSection: {
-    title: "Why Homeowners & Businesses Trust Hritsev Remodel",
-    text: `Hritsev Remodel is the go-to choice for homeowners and property managers who value professionalism, flexibility, and quality results. With over 5 years of experience, we specialize in fully insured remodeling and renovation services with a strong reputation for reliability and attention to detail.
+    title: "Why Choose Hritsev Remodel",
+    text: `Homeowners choose Hritsev Remodel because we take pride in doing the work correctly and treating every project with care. We show up on time, keep job sites clean, communicate clearly, and focus on delivering results that last.
 
-    From kitchen and bathroom remodels to bedroom upgrades and patio renovations, we deliver efficient, high-quality work tailored to your space, style, and schedule. Our team uses professional techniques, quality materials, and proven methods to ensure durable, beautiful results without compromise.
-    
-    We proudly serve both residential and commercial clients, offering clear communication, transparent pricing, and a commitment to complete satisfaction on every project.`,
+From flooring and drywall to complete kitchen and bathroom renovations, we provide dependable craftsmanship and straightforward service without unnecessary complications. Every project is completed with the same attention to quality, whether it's a small update or a full remodel.`,
     image: "/images/content-blocks/painting-trim-flooring-baseboards.webp",
     button: "learn more",
     tag: "adwdawd",

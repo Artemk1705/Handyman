@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { ContactButton } from "../ui/contact-button";
 
 export function CityHeroSection({ title, backgroundImage }) {
   return (
@@ -10,19 +10,7 @@ export function CityHeroSection({ title, backgroundImage }) {
         <h1 className="font-header company-yellow text-6xl sm:text-3xl md:text-7xl lg:text-8xl xl:text-8xl uppercase text-shadow-lg mb-10">
           {title}
         </h1>
-        <Button variant="navblur">
-          <a
-            className="schedule_link"
-            href="sms:+15626436373"
-            onClick={() => {
-              window.gtag?.("event", "conversion", {
-                send_to: "AW-18199502292/kiCoCP60vrscENS7meZD",
-              });
-            }}
-          >
-            GET SCHEDULE
-          </a>
-        </Button>
+        <ContactButton type="sms" variant="navblur" text="GET ESTIMATE" />
       </div>
     </div>
   );

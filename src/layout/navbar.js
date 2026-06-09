@@ -7,6 +7,7 @@ import { RightNav } from "@/components/navbarContent/rightBar";
 import Burger from "./burger";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { ContactButton } from "@/components/ui/contact-button";
 
 function slugify(text) {
   return text.toLowerCase().replace(/\s+/g, "-");
@@ -65,16 +66,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="main_bar">
-            <a
-              href="sms:+15626436373"
-              onClick={() => {
-                window.gtag?.("event", "conversion", {
-                  send_to: "AW-18199502292/kiCoCP60vrscENS7meZD",
-                });
-              }}
-            >
-              <Button variant="schedule">get schedule</Button>
-            </a>
+            <ContactButton type="sms" variant="schedule" text="GET ESTIMATE" />
           </li>
         </ul>
       </div>

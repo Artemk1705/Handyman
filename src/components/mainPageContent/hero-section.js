@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+"use client";
+
+import { ContactButton } from "../ui/contact-button";
 
 export function MainPageHero() {
   return (
     <div className="relative w-screen h-[95vh] md:h-[105vh] flex items-center justify-center overflow-hidden">
-      {/* 🎥 Видео на фоне */}
+      {/* Видео */}
       <video
         autoPlay
         muted
@@ -19,47 +20,52 @@ export function MainPageHero() {
         Your browser does not support the video tag.
       </video>
 
-      {/* 🔲 Затемнение сверху */}
+      {/* Затемнение */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent z-10" />
 
-      {/* 📄 Текст и кнопка */}
+      {/* Контент */}
       <div className="title_main_text_container">
-        <div className="absolute top-[25px] left-[25px] text-white flex flex-col items-start text-left 2xl:top-[27%] xl:top-[115px] ml-0 cursor-default z-20">
-          <div>
-            <h1 className="font-header company-yellow text-6xl sm:text-3xl md:text-7xl lg:text-8xl xl:text-8xl uppercase text-shadow-lg">
-              your local, trusted
-              <br />
-              remodeling &<br />
-              renovation services
-            </h1>
+        <div
+          className="
+            absolute
+            top-1/2
+            left-1/2
+            -translate-x-1/2
+            -translate-y-1/2
 
-            <p className="my-10 xl:mb-7 xl:my-7 xl:w-2/5 w-100 text-xl text-shadow-lg company-yellow">
-              Your trusted <strong>Remodel & renovation experts</strong>, right
-              next to you — offering
-              <strong> 24/7 emergency service</strong>, expert
-              <strong>house remodeling</strong> (kitchens, bathrooms, bedrooms),
-              <strong> general home maintenance & repairs</strong>,
-              <strong>
-                {" "}
-                fence repair/installation, paintin interior/exterior, and more
-              </strong>
-              , and{" "}
-              <strong>
-                local, dependable service with over 5 years of experience
-              </strong>
-              .
-            </p>
+            flex
+            flex-col
+            items-center
+            text-center
+
+            w-[90%]
+            text-white
+            cursor-default
+            z-20
+
+            xl:top-[115px]
+            xl:left-[25px]
+            xl:translate-x-0
+            xl:translate-y-0
+
+            xl:items-start
+            xl:text-left
+            xl:w-auto
+
+            2xl:top-[27%]
+          "
+        >
+          <h1 className="font-header company-yellow text-6xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl uppercase text-shadow-lg">
+            your local, trusted
+            <br />
+            remodeling &
+            <br />
+            renovation services
+          </h1>
+
+          <div className="mt-8 flex justify-center xl:justify-start w-full">
+            <ContactButton type="sms" variant="navblur" text="GET ESTIMATE" />
           </div>
-          <a
-            href="sms:+15626436373"
-            onClick={() => {
-              window.gtag?.("event", "conversion", {
-                send_to: "AW-18199502292/kiCoCP60vrscENS7meZD",
-              });
-            }}
-          >
-            <Button variant="navblur">GET SCHEDULE</Button>
-          </a>
         </div>
       </div>
     </div>
