@@ -1,4 +1,3 @@
-import MapGoogle from "./googlemap";
 import Image from "next/image";
 
 export function Contactmain() {
