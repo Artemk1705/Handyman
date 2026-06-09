@@ -9,7 +9,15 @@ export function LeftFootbar() {
           <strong>Hritsev Remodel</strong>
           <br /> Sarasota, FL 34243
           <br /> Phone:{" "}
-          <a className="font-bold underline" href="tel:+15626436373">
+          <a
+            className="font-bold underline"
+            href="sms:+15626436373"
+            onClick={() => {
+              window.gtag?.("event", "conversion", {
+                send_to: "AW-18199502292/kiCoCP60vrscENS7meZD",
+              });
+            }}
+          >
             (562) 643-6373
           </a>
         </div>

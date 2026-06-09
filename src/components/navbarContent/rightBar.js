@@ -5,7 +5,12 @@ export function RightNav() {
     <div className="flex justify-end font-semibold w-screen pr-15 py-4">
       <a
         className="nav_right_link_container text-lg xl:text-base"
-        href="tel:15626436373"
+        href="sms:+15626436373"
+        onClick={() => {
+          window.gtag?.("event", "conversion", {
+            send_to: "AW-18199502292/kiCoCP60vrscENS7meZD",
+          });
+        }}
       >
         Call today +1 (562) 643-6373
       </a>

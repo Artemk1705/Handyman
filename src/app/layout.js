@@ -13,6 +13,7 @@ import "@/assets/styles/serv.css";
 import "@/assets/styles/buttons.css";
 import "@/assets/styles/navbar.css";
 import "@/assets/styles/areas.css";
+import Script from "next/script";
 
 import Navbar from "@/layout/navbar";
 import Footer from "@/layout/footer";
@@ -53,6 +54,20 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18199502292"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-ads-tag" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'AW-18199502292');
+  `}
+        </Script>
         <Navbar />
         {children}
         <Footer />

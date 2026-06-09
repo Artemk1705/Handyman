@@ -65,7 +65,14 @@ function Navbar() {
             </Link>
           </li>
           <li className="main_bar">
-            <a href="sms:+15626436373">
+            <a
+              href="sms:+15626436373"
+              onClick={() => {
+                window.gtag?.("event", "conversion", {
+                  send_to: "AW-18199502292/kiCoCP60vrscENS7meZD",
+                });
+              }}
+            >
               <Button variant="schedule">get schedule</Button>
             </a>
           </li>

@@ -13,7 +13,12 @@ export function CityHeroSection({ title, backgroundImage }) {
         <Button variant="navblur">
           <a
             className="schedule_link"
-            href="https://book.housecallpro.com/book/Smart-HVAC-LLC/873f1cd3570a4061a22cdf1c843d46ea?v2=true"
+            href="sms:+15626436373"
+            onClick={() => {
+              window.gtag?.("event", "conversion", {
+                send_to: "AW-18199502292/kiCoCP60vrscENS7meZD",
+              });
+            }}
           >
             GET SCHEDULE
           </a>
