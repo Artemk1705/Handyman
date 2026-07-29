@@ -54,21 +54,24 @@ export function MainPageHero() {
             2xl:top-[27%]
           "
         >
-          <h1 className="font-header company-yellow text-6xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl uppercase text-shadow-lg">
-            your local, trusted
-            <br />
-            remodeling &
-            <br />
-            renovation services
-          </h1>
-
-          <div className="mt-8 flex justify-center xl:justify-start w-full">
+          <div className="mb-12 flex justify-center xl:justify-start w-full">
             <ContactButton
-              variant="navblur"
+              variant="blur"
               text="GET ESTIMATE"
               href="https://book.housecallpro.com/book/Hritsev--Co/e668808153154b5fb4c9b36835d07026?v2=true"
             />
           </div>
+          <h1 className="font-header company-yellow text-6xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl uppercase text-shadow-lg">
+            your local, trusted
+            <br />
+            remodeling
+            <br />&
+            <br />
+            renovation services
+            <br />
+            <br />
+            Licensed <br /> & <br /> Insured
+          </h1>
         </div>
       </div>
     </div>
