@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { ContactButton } from "@/components/ui/contact-button";
+import { Button } from "@/components/ui/button";
 
 const Burger = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,35 +19,45 @@ const Burger = () => {
   }, [pathname]);
 
   return (
-    <div className="relative company-yellow-bg">
-      <div className="w-screen grid grid-cols-3 items-center px-4 h-20">
-        {/* Burger */}
-        <button
-          onClick={toggleBurger}
-          className="flex flex-col justify-center items-center space-y-1 justify-self-start"
-        >
-          <span className="w-10 h-1 company-blue-bg" />
-          <span className="w-10 h-1 company-blue-bg" />
-          <span className="w-10 h-1 company-blue-bg" />
-        </button>
+    <div className="relative company-yellow-bg h-55 w-full">
+      {/* Бургер */}
+      <button
+        onClick={toggleBurger}
+        className="absolute left-4 top-30 -translate-y-1/2 z-30 flex flex-col space-y-1"
+      >
+        <span className="w-10 h-1 company-blue-bg rounded" />
+        <span className="w-10 h-1 company-blue-bg rounded" />
+        <span className="w-10 h-1 company-blue-bg rounded" />
+      </button>
 
-        {/* Logo */}
-        <Link href="/" className="justify-self-center">
-          <Image
-            src="/images/main-power-washing-handyman-hritsev-bright-fix-drive-way-washing-logo.webp"
-            width={57}
-            height={80}
-            alt="Logo"
+      {/* Центр */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div className="flex flex-col items-center gap-3 pointer-events-auto">
+          <Link href="/">
+            <Image
+              src="/images/main-power-washing-handyman-hritsev-bright-fix-drive-way-washing-logo.webp"
+              width={57}
+              height={80}
+              alt="Logo"
+            />
+          </Link>
+
+          <Button variant="blur">
+            <Link className="uppercase text-xs xl:text-base" href="/areas">
+              OUR AREAS
+            </Link>
+          </Button>
+
+          <ContactButton
+            type="call"
+            variant="call"
+            text="CALL US (562) 643-6373"
+            href="tel:+15626436373"
           />
-        </Link>
-        <ContactButton
-          type="call"
-          variant="call"
-          text="CALL US"
-          className="ml-8"
-        />
+        </div>
       </div>
 
+      {/* Затемнение */}
       <div
         className={`fixed inset-0 bg-black/50 z-40 transition-opacity duration-300 ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
@@ -54,6 +65,7 @@ const Burger = () => {
         onClick={closeBurger}
       />
 
+      {/* Боковое меню */}
       <div
         className={`fixed top-0 left-0 w-4/5 max-w-sm h-full bg-white z-50 shadow-lg transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "-translate-x-full"
@@ -82,7 +94,7 @@ const Burger = () => {
           <Link
             href="/"
             onClick={closeBurger}
-            className="text-xl font-semibold company-blue-text hover:underline"
+            className="text-xl font-semibold hover:underline"
           >
             Main
           </Link>
@@ -90,7 +102,7 @@ const Burger = () => {
           <Link
             href="/about"
             onClick={closeBurger}
-            className="text-xl font-semibold company-blue-text hover:underline"
+            className="text-xl font-semibold hover:underline"
           >
             About Us
           </Link>
@@ -98,7 +110,7 @@ const Burger = () => {
           <Link
             href="/contact"
             onClick={closeBurger}
-            className="text-xl font-semibold company-blue-text hover:underline"
+            className="text-xl font-semibold hover:underline"
           >
             Contact
           </Link>
@@ -107,4 +119,5 @@ const Burger = () => {
     </div>
   );
 };
+
 export default Burger;

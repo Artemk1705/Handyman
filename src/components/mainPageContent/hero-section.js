@@ -19,7 +19,6 @@ export function MainPageHero() {
         />
         Your browser does not support the video tag.
       </video>
-
       {/* Затемнение */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent z-10" />
 
@@ -64,7 +63,11 @@ export function MainPageHero() {
           </h1>
 
           <div className="mt-8 flex justify-center xl:justify-start w-full">
-            <ContactButton type="sms" variant="navblur" text="GET ESTIMATE" />
+            <ContactButton
+              variant="navblur"
+              text="GET ESTIMATE"
+              href="https://book.housecallpro.com/book/Hritsev--Co/e668808153154b5fb4c9b36835d07026?v2=true"
+            />
           </div>
         </div>
       </div>
